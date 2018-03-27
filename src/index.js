@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+
+import Page from './containers/Page';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import 'whatwg-fetch'
+
+ReactDOM.render(<Page />, document.getElementById('root'));
 registerServiceWorker();

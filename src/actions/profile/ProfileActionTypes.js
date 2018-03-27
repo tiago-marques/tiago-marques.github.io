@@ -1,0 +1,6 @@
+const ActionTypes = {
+  GET_INFORMATION: 'PROFILE_GET_INFORMATION',
+  UPDATE_INFORMATION: 'PROFILE_UPDATE_INFORMATION',
+};
+
+export default ActionTypes;
