@@ -1,14 +1,17 @@
 {
   "name": "tiago-marques.github.io",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
+  "homepage" : "http://tiago-marques.github.io",
   "dependencies": {
     "flux": "^3.1.3",
     "immutable": "^3.8.2",
     "moment": "^2.21.0",
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
+    "react-component-octicons": "^1.6.0",
     "react-dom": "^16.2.0",
+    "react-feather": "^1.1.0",
     "react-highlight": "^0.12.0",
     "react-scripts": "1.1.1",
     "whatwg-fetch": "^2.0.3"

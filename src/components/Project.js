@@ -1,17 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import './Company.css'
+import './Project.css'
 
-const Company = props => {
+const Project = props => {
     return (
         <article className="markdown-body container-column">
-            {props.year && <h4 style={yearStyle}>
-                {props.year}
+            {props.role && <h4 style={roleStyle}>
+                {props.role}
             </h4>}
             <img style={imageStyle} src={props.imageUri} alt={props.name} />
-            {props.role && <pre>
-                {props.role}
-            </pre>}
         </article>
     )
 }
@@ -22,15 +19,15 @@ const imageStyle = {
     margin: '0 auto'
 }
 
-const yearStyle = {
+const roleStyle = {
     alignSelf: 'center'
 }
 
-Company.propTypes = {
+Project.propTypes = {
+    role: PropTypes.string,
+    year: PropTypes.string,
     name: PropTypes.string.isRequired,
-    role: PropTypes.string.isRequired,
     imageUri: PropTypes.string.isRequired,
-    year: PropTypes.string.isRequired,
 }
 
-export default Company
+export default Project

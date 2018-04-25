@@ -5,7 +5,7 @@ import './Company.css'
 const CompanyScreen = props => {
 
   return (
-    <div className="markdown-body">
+    <div>
       <h1>main companies</h1>
       <div className="company-grid">
         {!!props.company.size && props.company.valueSeq().map(company => {
