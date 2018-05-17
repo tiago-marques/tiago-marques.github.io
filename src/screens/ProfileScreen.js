@@ -3,7 +3,8 @@ import './Profile.css'
 import Highlight from 'react-highlight'
 
 import { Github, Mail, Twitter } from 'react-feather';
-import favicon from '../assets/favicon.png'
+import favicon from '../assets/favicon.png';
+import pluraliq from '../assets/pluralsightiq.webp';
 
 const ProfileScreen = props => {
 
@@ -16,6 +17,9 @@ const ProfileScreen = props => {
         <a href="mailto:me@tiagomarques.com.br"><Mail /></a>
         <a href="https://twitter.com/metiagomarques"><Twitter /></a>
       </div>
+      <a className="plural-container" href="https://app.pluralsight.com/profile/metiagomarques">
+        <img src={pluraliq} width="200px" alt="pluralsight qi" />
+      </a>
       <h1>about {props.profile.get("login") || 'tiago-marques'}</h1>
       <p>{props.profile.get("bio" || '-')}</p>
 
