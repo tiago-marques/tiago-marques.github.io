@@ -4,7 +4,7 @@ import Highlight from 'react-highlight'
 
 import { Github, Mail, Twitter } from 'react-feather';
 import favicon from '../assets/favicon.png';
-import pluraliq from '../assets/pluralsightiq.webp';
+import pluraliq from '../assets/pluralsightiq.png';
 
 const ProfileScreen = props => {
 
