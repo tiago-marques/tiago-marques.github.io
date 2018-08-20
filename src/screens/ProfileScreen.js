@@ -13,9 +13,9 @@ const ProfileScreen = props => {
       <img style={borderRadius} src={props.profile.get("avatar_url") || favicon} alt="profile" />
       <br />
       <div className="container-space">
-        <a href="https://github.com/tiago-marques"><Github /></a>
-        <a href="mailto:me@tiagomarques.com.br"><Mail /></a>
-        <a href="https://twitter.com/metiagomarques"><Twitter /></a>
+        <a href="https://github.com/tiago-marques" ><Github alt="Github" /></a>
+        <a href="mailto:me@tiagomarques.com.br"><Mail alt="E-mail" /></a>
+        <a href="https://twitter.com/metiagomarques"><Twitter alt="Twitter" /></a>
       </div>
       <a className="plural-container" href="https://app.pluralsight.com/profile/metiagomarques">
         <img src={pluraliq} width="200px" alt="pluralsight qi" />
