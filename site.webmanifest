@@ -1,0 +1,22 @@
+{
+    "name": "tiago marques website",
+    "short_name": "tiago-marques",
+    "lang": "pt-BR",
+    "start_url": "/?launcher=true",
+    "display": "standalone",
+    "theme_color": "#000",
+    "background_color": "#fff",
+    "icons": [
+      {
+        "src": "homescreen.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "android-icon.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "density": "4.0"
+      }
+    ]
+  }
