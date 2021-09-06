@@ -9,17 +9,21 @@ const Company = props => {
                 {props.year}
             </h4>}
             <img style={imageStyle} src={props.imageUri} alt={props.name} />
-            {props.role && <pre>
+            {props.role && <pre style={preStyle}>
                 {props.role}
             </pre>}
         </article>
     )
 }
 
+const preStyle = {
+    textOverflow: 'ellipsis',
+    width: '200px'
+}
+
 const imageStyle = {
     width: '150px',
-    height: '150px',
-    margin: '0 auto'
+    margin: 'auto'
 }
 
 const yearStyle = {

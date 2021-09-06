@@ -2,7 +2,7 @@ import React from 'react';
 import './Profile.css'
 import Highlight from 'react-highlight'
 
-import { Github, Mail, Twitter } from 'react-feather';
+import { GitHub, Mail, Twitter } from 'react-feather';
 import favicon from '../assets/favicon.png';
 import pluraliq from '../assets/pluralsightiq.png';
 
@@ -13,7 +13,7 @@ const ProfileScreen = props => {
       <img style={borderRadius} src={props.profile.get("avatar_url") || favicon} alt="profile" />
       <br />
       <div className="container-space">
-        <a href="https://github.com/tiago-marques" ><Github alt="Github" /></a>
+        <a href="https://github.com/tiago-marques" ><GitHub alt="Github" /></a>
         <a href="mailto:me@tiagomarques.com.br"><Mail alt="E-mail" /></a>
         <a href="https://twitter.com/metiagomarques"><Twitter alt="Twitter" /></a>
       </div>

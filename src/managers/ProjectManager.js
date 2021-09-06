@@ -2,7 +2,7 @@ import ProjectActions from '../actions/project/ProjectActions'
 
 const ProjectManager = {
     getCompanies() {
-        fetch('https://gistcdn.githack.com/tiago-marques/0022055bd94ec205c6094cc6668baecf/raw/aded3c37fe155a3e7287071d872fe26a029832b9/projects.json')
+        fetch('https://gistcdn.githack.com/tiago-marques/0022055bd94ec205c6094cc6668baecf/raw/f469594593a34d03f7ffceb972d4ac1b56c3ed2d/projects.json')
             .then((response) => {
                 return response.json()
             }).then((payload) => {
