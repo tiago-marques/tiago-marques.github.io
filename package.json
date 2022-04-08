@@ -6,7 +6,7 @@
   "dependencies": {
     "flux": "^4.0.1",
     "immutable": "^3.8.2",
-    "moment": "^2.29.1",
+    "moment": "^2.29.2",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-component-octicons": "^1.8.0",
