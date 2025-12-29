@@ -1,15 +1,12 @@
 {
-  "main.css": "/static/css/main.51955e96.chunk.css",
-  "main.js": "/static/js/main.5bb379cf.chunk.js",
-  "main.js.map": "/static/js/main.5bb379cf.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-  "static/js/2.1cdd8c79.chunk.js": "/static/js/2.1cdd8c79.chunk.js",
-  "static/js/2.1cdd8c79.chunk.js.map": "/static/js/2.1cdd8c79.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.57ef5ab2b87d1d6f18b024f8cc688c2a.js": "/precache-manifest.57ef5ab2b87d1d6f18b024f8cc688c2a.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/main.51955e96.chunk.css.map": "/static/css/main.51955e96.chunk.css.map",
-  "static/media/App.css": "/static/media/pattern_2.8dd827eb.png",
-  "static/media/pluralsightiq.png": "/static/media/pluralsightiq.8bd1a6f3.png"
+  "files": {
+    "main.css": "/static/css/main.c0341fea.css",
+    "main.js": "/static/js/main.7958b483.js",
+    "static/media/pluralsightiq.png": "/static/media/pluralsightiq.976cea483dd212d1ea28.png",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.c0341fea.css",
+    "static/js/main.7958b483.js"
+  ]
 }
