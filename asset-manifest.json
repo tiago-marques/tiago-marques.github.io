@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.dbeff756.css",
+    "main.css": "/static/css/main.56d2f106.css",
     "main.js": "/static/js/main.91819aa2.js",
     "static/media/pix.png": "/static/media/pix.4605834891d09a142940.png",
     "static/media/pluralsightiq.png": "/static/media/pluralsightiq.976cea483dd212d1ea28.png",
@@ -10,7 +10,7 @@
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.dbeff756.css",
+    "static/css/main.56d2f106.css",
     "static/js/main.91819aa2.js"
   ]
 }
