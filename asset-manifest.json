@@ -1,12 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.c0341fea.css",
-    "main.js": "/static/js/main.7958b483.js",
+    "main.js": "/static/js/main.0aab3ad7.js",
+    "static/media/pix.png": "/static/media/pix.4605834891d09a142940.png",
     "static/media/pluralsightiq.png": "/static/media/pluralsightiq.976cea483dd212d1ea28.png",
+    "static/media/itaucard.png": "/static/media/itaucard.8d83b8f268a6ee99dd83.png",
+    "static/media/letsfair.png": "/static/media/letsfair.c6b88b57587350858b60.png",
     "index.html": "/index.html"
   },
   "entrypoints": [
     "static/css/main.c0341fea.css",
-    "static/js/main.7958b483.js"
+    "static/js/main.0aab3ad7.js"
   ]
 }
