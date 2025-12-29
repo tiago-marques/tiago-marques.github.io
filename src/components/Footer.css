@@ -1,19 +1,39 @@
 .container-footer {
-    background-color: #f6f8fa;
+    background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+    color: white;
+    margin-top: 4rem;
 }
+
 .content-footer {
-    padding: 20px;
+    padding: 3rem 2rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .flex-footer {
     flex: 1;
-    padding: 30px;
+    padding: 2rem;
+    min-width: 250px;
+}
+
+.flex-footer h3 {
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
 }
 
 .link-footer {
-    color: #0366d6;
+    color: #a0aec0;
     text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+    margin: 0.5rem 0;
+}
+
+.link-footer:hover {
+    color: #667eea;
+    transform: translateX(4px);
 }

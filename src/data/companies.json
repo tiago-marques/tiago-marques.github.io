@@ -1,0 +1,44 @@
+{
+  "ebanx": {
+    "year": "2025",
+    "name": "EBANX",
+    "role": "Sales Engineer Senior Manager",
+    "imageUri": "ebanx.png"
+  },
+  "dlocal": {
+    "year": "2021",
+    "name": "d.local",
+    "role": "Engineer Manager",
+    "imageUri": "dlocal.png"
+  },
+  "zephyr": {
+    "year": "2018",
+    "name": "Zephyr Place",
+    "role": "Founder & Head of Operations",
+    "imageUri": "zephyr.png"
+  },
+  "letsfair": {
+    "year": "2018",
+    "name": "Letsfair",
+    "role": "Co-Founder & Head of Apps Development",
+    "imageUri": "letsfair.png"
+  },
+  "cit": {
+    "year": "2017",
+    "name": "CI&T",
+    "role": "Software Architect",
+    "imageUri": "cit.png"
+  },
+  "cpqd": {
+    "year": "2014",
+    "name": "CPqD",
+    "role": "Junior Systems Analyst",
+    "imageUri": "cpqd.png"
+  },
+  "motorola": {
+    "year": "2013",
+    "name": "Motorola",
+    "role": "Android Developer Trainee",
+    "imageUri": "motorola.png"
+  }
+}

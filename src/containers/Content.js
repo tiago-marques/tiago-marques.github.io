@@ -1,23 +1,18 @@
 import React from 'react';
-
-import ProfileScreen from '../screens/ProfileScreen'
-import CompanyScreen from '../screens/CompanyScreen'
+import ProfileScreen from '../screens/ProfileScreen';
+import CompanyScreen from '../screens/CompanyScreen';
 import ProjectScreen from '../screens/ProjectScreen';
 import Footer from '../components/Footer';
 
-function Content(props) {
-  const { profile, company, project } = props;
+const Content = () => {
   return (
-    <div>
-      <div className="markdown-body content">
-        <ProfileScreen profile={profile} />
-        <CompanyScreen company={company} />
-        <ProjectScreen project={project} />
-      </div>
+    <div className="content">
+      <ProfileScreen />
+      <CompanyScreen />
+      <ProjectScreen />
       <Footer />
     </div>
   );
-}
-
+};
 
 export default Content;

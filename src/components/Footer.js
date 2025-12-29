@@ -1,40 +1,34 @@
-import React from 'react'
-import Octicon from 'react-component-octicons';
-import './Footer.css'
+import React from 'react';
+import { Mail, MessageCircle, GitHub, Package, Gift } from 'react-feather';
+import './Footer.css';
 
-const Footer = props => {
+const Footer = () => {
     return (
         <div className="container-footer">
-            <hr style={{margin: 0}} />
             <div className="content-footer">
                 <div className="flex-footer">
-                    <p>contact</p>
-                    <hr />
-                    <p><Octicon name="mail" /> <a className="link-footer" href="mailto:me@tiagomarques.com.br">me@tiagomarques.com.br</a></p>
-                    <p><Octicon name="comment" /> <a className="link-footer" href="https://twitter.com/metiagomarques">@metiagomarques</a></p>
+                    <h3>contact</h3>
+                    <p><Mail size={16} style={{ display: 'inline', marginRight: '8px' }} /> <a className="link-footer" href="mailto:me@tiagomarques.com.br">me@tiagomarques.com.br</a></p>
+                    <p><MessageCircle size={16} style={{ display: 'inline', marginRight: '8px' }} /> <a className="link-footer" href="https://twitter.com/metiagomarques">@metiagomarques</a></p>
                 </div>
                 <div className="flex-footer">
-                    <p>find me</p>
-                    <hr />
-                    <p><Octicon name="mark-github" /> <a className="link-footer" href="https://github.com/tiago-marques">tiago-marques</a></p>
-                    <p><Octicon name="package" /> <a className="link-footer" href="https://www.npmjs.com/~tiago-marques">~tiago-marques</a></p>
-                    {/* <p><Octicon name="gift" /> <a className="link-footer" href="mailto:me@tiagomarques.com.br">contact me by email</a></p> */}
+                    <h3>find me</h3>
+                    <p><GitHub size={16} style={{ display: 'inline', marginRight: '8px' }} /> <a className="link-footer" href="https://github.com/tiago-marques">tiago-marques</a></p>
+                    <p><Package size={16} style={{ display: 'inline', marginRight: '8px' }} /> <a className="link-footer" href="https://www.npmjs.com/~tiago-marques">~tiago-marques</a></p>
                 </div>
                 <div className="flex-footer">
-                    <p>hire & support</p>
-                    <hr />
-                    <p><Octicon name="mail" /> <a className="link-footer" href="mailto:contact@zephyrplace.com">contact@zephyrplace.com</a></p>
-                    <p><Octicon name="mail" /> <a className="link-footer" href="mailto:support@zephyrplace.com">support@zephyrplace.com</a></p>
+                    <h3>hire & support</h3>
+                    <p><Mail size={16} style={{ display: 'inline', marginRight: '8px' }} /> <a className="link-footer" href="mailto:contact@zephyrplace.com">contact@zephyrplace.com</a></p>
+                    <p><Mail size={16} style={{ display: 'inline', marginRight: '8px' }} /> <a className="link-footer" href="mailto:support@zephyrplace.com">support@zephyrplace.com</a></p>
                 </div>
                 <div className="flex-footer">
-                    <p>license</p>
-                    <hr />
-                    <p><Octicon name="law" /> <a className="link-footer" href="https://choosealicense.com/licenses/mit/">MIT License</a></p>
-                    <p>2018</p>
+                    <h3>license</h3>
+                    <p><Gift size={16} style={{ display: 'inline', marginRight: '8px' }} /> <a className="link-footer" href="https://choosealicense.com/licenses/mit/">MIT License</a></p>
+                    <p>© {new Date().getFullYear()}</p>
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Footer
+export default Footer;

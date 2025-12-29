@@ -1,0 +1,27 @@
+{
+    "pix": {
+        "name": "Pix",
+        "role": "Pix",
+        "imageUri": "pix.png"
+    },
+    "itaucard": {
+        "name": "Itaucard",
+        "role": "Itaucard",
+        "imageUri": "itaucard.png"
+    },
+    "bradesco": {
+        "name": "Bradesco",
+        "role": "Bradesco",
+        "imageUri": "bradesco.png"
+    },
+    "boriginal": {
+        "name": "Banco Original",
+        "role": "Banco Original",
+        "imageUri": "boriginal.png"
+    },
+    "bpp": {
+        "name": "BPP",
+        "role": "BPP",
+        "imageUri": "bpp.png"
+    }
+}

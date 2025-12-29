@@ -4,12 +4,12 @@ import './Project.css'
 
 const Project = props => {
     return (
-        <article className="markdown-body container-column">
-            {props.role && <h4 style={roleStyle}>
+        <article className="project-card">
+            {props.role && <h4>
                 {props.role}
             </h4>}
             <div style={imageContainer}>
-            <img style={imageStyle} src={props.imageUri} alt={props.name} />
+                <img style={imageStyle} src={props.imageUri} alt={props.name} />
             </div>
         </article>
     )
@@ -24,10 +24,6 @@ const imageContainer = {
     display: 'flex',
     height: '150px',
     margin: 'auto'
-}
-
-const roleStyle = {
-    alignSelf: 'center'
 }
 
 Project.propTypes = {

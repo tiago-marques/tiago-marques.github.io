@@ -1,17 +1,19 @@
-import ProjectActions from '../actions/project/ProjectActions'
+import ProjectActions from '../actions/project/ProjectActions';
+import ApiService from '../services/ApiService';
+import { DATA } from '../config/constants';
+import { processImagePaths, getProjectImagePath } from '../utils/imageHelper';
 
 const ProjectManager = {
-    getCompanies() {
-        fetch('https://gistcdn.githack.com/tiago-marques/0022055bd94ec205c6094cc6668baecf/raw/f469594593a34d03f7ffceb972d4ac1b56c3ed2d/projects.json')
-            .then((response) => {
-                return response.json()
-            }).then((payload) => {
-                ProjectActions.updateInformation(payload)
-            }).catch((ex) => {
-                console.log('parsing failed', ex)
+    getProjects() {
+        ApiService.loadLocal(DATA.PROJECTS)
+            .then(data => {
+                const processedData = processImagePaths(data, getProjectImagePath);
+                ProjectActions.updateInformation(processedData);
             })
+            .catch(error => {
+                console.error('Failed to load projects data:', error);
+            });
     }
-}
-
+};
 
 export default ProjectManager;

@@ -4,30 +4,21 @@ import './Company.css'
 
 const Company = props => {
     return (
-        <article className="markdown-body container-column">
-            {props.year && <h4 style={yearStyle}>
+        <article className="company-card">
+            {props.year && <h4>
                 {props.year}
             </h4>}
             <img style={imageStyle} src={props.imageUri} alt={props.name} />
-            {props.role && <pre style={preStyle}>
+            {props.role && <pre>
                 {props.role}
             </pre>}
         </article>
     )
 }
 
-const preStyle = {
-    textOverflow: 'ellipsis',
-    width: '200px'
-}
-
 const imageStyle = {
     width: '150px',
     margin: 'auto'
-}
-
-const yearStyle = {
-    alignSelf: 'center'
 }
 
 Company.propTypes = {
