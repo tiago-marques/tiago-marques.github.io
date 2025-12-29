@@ -57,7 +57,11 @@
     background: linear-gradient(135deg, #f6f8fb 0%, #ffffff 100%);
     border-radius: 8px;
     color: #4a5568;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     text-align: center;
     border: 1px solid #e2e8f0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
 }
